@@ -75,7 +75,21 @@
                 <li>Docker</li>
                 <li>Kubernetes</li>
                 <li>JUnit / Mockito</li>
-                <li>G
+
+<style>
+  .two-column-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two equal columns */
+    gap: 0.5rem 2rem; /* row gap, column gap */
+    list-style: none; /* remove default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  .two-column-list li::before {
+    content: "• "; /* add a custom bullet */
+    color: #444;   /* style bullet */
+  }
+</style>
             
             <h2>Info</h2>
             <ul class="paper">
