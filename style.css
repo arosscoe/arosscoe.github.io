@@ -59,6 +59,23 @@ a{
     width: 70%;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 10px; /* Space between columns */
+  margin-top: 10px;
+}
+
+.skills-container ul {
+  list-style-type: none; /* Remove bullets (optional) */
+  padding: 0;
+}
+
+
+.two-column-list li::before {
+    content: "💻 ";
+}
+
 .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
